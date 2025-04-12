@@ -13,7 +13,7 @@ const events = [
       date: "2025-06-06"
     },
     {
-      name: "Something Else",
+      name: "Nana Jean Visit",
       date: "2025-04-12"
     }
   ];
