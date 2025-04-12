@@ -14,7 +14,7 @@ const events = [
     },
     {
       name: "Nana Jean Visit",
-      date: "2025-04-12"
+      date: "2025-04-13"
     }
   ];
   
