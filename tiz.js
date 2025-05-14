@@ -21,8 +21,13 @@ const events = [
       date: "2025-06-07"
     },
     {
+       name: "Nanny Back",
+       date: "2025-05-23"
+    }
+
+    {
         name: "School Holiday",
-        date: "2025-05-22"
+        date: "2025-05-21"
     }
   ];
   
