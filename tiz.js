@@ -1,10 +1,6 @@
 // Array of event objects with a name and a target date (YYYY-MM-DD)
 const events = [
     {
-      name: "Caravan Holiday",
-      date: "2025-04-21"
-    },
-    {
       name: "Back to School",
       date: "2025-04-28"
     },
@@ -23,11 +19,10 @@ const events = [
     {
        name: "Nanny Back",
        date: "2025-05-23"
-    }
-
+    },
     {
         name: "School Holiday",
-        date: "2025-05-21"
+        date: "2025-05-22"
     }
   ];
   
