@@ -1,17 +1,21 @@
 // Array of event objects with a name and a target date (YYYY-MM-DD)
 const events = [
     {
-      name: "Sports Day",
-      date: "2025-07-08"
+      "Holiday":
+      "13-08-2025"
     },
     {
-      name: "Last Day of School",
-      date: "2025-07-18"
+      "Mommy's Birthday":
+      "09-08-2025"
     },
     {
-      name: "Transition Day",
-      date: "2025-07-10"
+      "Start in Year Two":
+      "02-09-2025"
     },
+    {
+      "Class Photo Day":
+      "01-10-2025"
+    }
   ];
   
   // Calculate the number of days left until the event date
