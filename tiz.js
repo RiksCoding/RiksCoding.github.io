@@ -13,6 +13,10 @@ const events = [
       date: "2025-09-02"
     },
     {
+      name: "Charlie's Birthday",
+      date: "2025-09-02"
+    },
+    {
       name: "Class Photo Day",
       date: "2025-10-01"
     }
