@@ -2,19 +2,19 @@
 const events = [
     {
       name: "Holiday",
-      date: "13-08-2025"
+      date: "2025-08-13"
     },
     {
       name: "Mommy's Birthday",
-      date: "09-08-2025"
+      date: "2025-08-09"
     },
     {
       name: "Start in Year Two",
-      date: "02-09-2025"
+      date: "2025-09-02"
     },
     {
       name: "Class Photo Day",
-      date: "01-10-2025"
+      date: "2025-10-01"
     }
   ];
   
