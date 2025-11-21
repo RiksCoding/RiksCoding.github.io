@@ -26,7 +26,7 @@ const events = [
     },
     {
       name: "Back To School 🏫🎒",
-      date: "2026-01-05"
+      date: "2026-03-28"
     },
      {
       name: "🎈 🎂 🎈 Amelia & Victoria's Birthday 🎈 🎂 🎈",
