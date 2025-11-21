@@ -28,6 +28,10 @@ const events = [
       name: "Back To School 🏫🎒",
       date: "2026-01-05"
     },
+     {
+      name: "🎈 🎂 🎈 Amelia & Victoria's Birthday 🎈 🎂 🎈",
+      date: "2026-01-05"
+    }
   ];
   
   // Calculate the number of days left until the event date
