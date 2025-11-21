@@ -5,25 +5,29 @@ const events = [
       date: "2025-08-13"
     },
     {
-      name: "Mommy's Birthday",
-      date: "2025-08-09"
+      name: "Trentham Christmas Lights 🌲",
+      date: "2025-12-05"
     },
     {
-      name: "Start in Year Two",
-      date: "2025-09-02"
+      name: "Festive Breakfast 🥞",
+      date: "2025-12-06"
     },
     {
-      name: "Charlie's Birthday",
-      date: "2025-09-13"
+      name: "Finish School 🏫🎒",
+      date: "2025-12-19"
     },
     {
-      name: "Class Photo Day",
-      date: "2025-10-01"
+      name: "See someone special at McArthur Glen 🤫",
+      date: "2025-12-22"
     },
     {
-      name: "Niamh's Birthday",
-      date: "2025-11-21"
-    }
+      name: "Christmas Day 🎄🎁🎄",
+      date: "2025-12-25"
+    },
+    {
+      name: "Back To School 🏫🎒",
+      date: "2026-01-05"
+    },
   ];
   
   // Calculate the number of days left until the event date
