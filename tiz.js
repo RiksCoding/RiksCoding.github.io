@@ -1,36 +1,20 @@
 // Array of event objects with a name and a target date (YYYY-MM-DD)
 const events = [
     {
-      name: "Holiday",
-      date: "2025-08-13"
+      name: "Holiday to Turkey",
+      date: "2026-08-10"
     },
     {
-      name: "Trentham Christmas Lights 🌲",
-      date: "2025-12-05"
+      name: "Mommy's Birthday",
+      date: "2026-08-09"
     },
     {
-      name: "Festive Breakfast 🥞",
-      date: "2025-12-06"
+      name: "School Trip",
+      date: "2026-07-01"
     },
     {
-      name: "Finish School 🏫🎒",
-      date: "2025-12-19"
-    },
-    {
-      name: "See someone special at McArthur Glen 🤫",
-      date: "2025-12-22"
-    },
-    {
-      name: "Christmas Day 🎄🎁🎄",
-      date: "2025-12-25"
-    },
-    {
-      name: "Back To School 🏫🎒",
-      date: "2026-01-05"
-    },
-     {
-      name: "🎈 🎂 🎈 Amelia & Victoria's Birthday 🎈 🎂 🎈",
-      date: "2026-03-28"
+      name: "School Finishes!",
+      date: "2026-07-17"
     }
   ];
   
@@ -41,11 +25,7 @@ const events = [
     // Calculate the time difference in milliseconds
     const timeDiff = eventDateObj - currentDate;
     // Convert milliseconds to days
-    if (timeDiff != 0){
-      return Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
-    }else {
-      return 0;
-    }
+    return Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
   }
   
   // Sort events by the shortest remaining days first
@@ -56,20 +36,17 @@ const events = [
     const container = document.getElementById("timerContainer");
     container.innerHTML = ""; // Clear previous timers
     events.forEach(event => {
-        const days = getDaysLeft(event.date);
-
-        if (days >= 0) { // Show only events that are today or in the future
-            const eventDiv = document.createElement("div");
-            eventDiv.className = "timer";
-            eventDiv.innerHTML = `
-                <div class="event-name">${event.name}</div>
-                <div class="days-left">${days === 0 ? "Today!" : days}</div>
-                <div class="small-text">${days === 1 ? "day" : days === 0 ? "" : "days"}</div>
-            `;
-            container.appendChild(eventDiv);
-        }
+      const days = getDaysLeft(event.date);
+      const eventDiv = document.createElement("div");
+      eventDiv.className = "timer";
+      eventDiv.innerHTML = `
+        <div class="event-name">${event.name}</div>
+        <div class="days-left">${days}</div>
+        <div class="small-text">days</div>
+      `;
+      container.appendChild(eventDiv);
     });
-}
+  }
   
   // Initial display of timers
   updateTimers();
