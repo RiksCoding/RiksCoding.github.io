@@ -37,6 +37,7 @@ const events = [
     container.innerHTML = ""; // Clear previous timers
     events.forEach(event => {
       const days = getDaysLeft(event.date);
+      if days > 0 {
       const eventDiv = document.createElement("div");
       eventDiv.className = "timer";
       eventDiv.innerHTML = `
@@ -46,6 +47,7 @@ const events = [
       `;
       container.appendChild(eventDiv);
     });
+  }
   }
   
   // Initial display of timers
