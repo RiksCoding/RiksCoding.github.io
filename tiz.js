@@ -34,11 +34,13 @@ const events = [
   
   // Render the timers on the page
   function updateTimers() {
-    const container = document.getElementById("timerContainer");
-    container.innerHTML = ""; // Clear previous timers
-    events.forEach(event => {
-      const days = getDaysLeft(event.date);
-      if (days > 0) {
+  const container = document.getElementById("timerContainer");
+  container.innerHTML = ""; // Clear previous timers
+
+  events.forEach(event => {
+    const days = getDaysLeft(event.date);
+
+    if (days > 0) {
       const eventDiv = document.createElement("div");
       eventDiv.className = "timer";
       eventDiv.innerHTML = `
@@ -47,8 +49,10 @@ const events = [
         <div class="small-text">days</div>
       `;
       container.appendChild(eventDiv);
-    });
-  }
+    }
+  });
+}   // ← THIS was missing
+
   
   // Initial display of timers
   updateTimers();
