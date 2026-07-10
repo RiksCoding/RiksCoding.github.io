@@ -48,7 +48,6 @@ const events = [
       container.appendChild(eventDiv);
     });
   }
-  }
   
   // Initial display of timers
   updateTimers();
